@@ -1,7 +1,6 @@
 # Huffman-Encoding-Json
 
-This method is built to compress the content of JSON files. Base on the Huffman encoding method but has a few differences. 
-We will slightly go through each step to understand the differences.
+### This method is built to compress the content of JSON files. Base on the Huffman encoding method but has a few differences. 
 
 Content of JSON file:
 
@@ -32,7 +31,7 @@ Content of JSON file:
 }
 ```
 
-The JSON file contains patient information in the form of a string of characters, after reading the data from the file, we will extract the different characters that appear inside the file into a string . This string is called the string key.
+The JSON file contains information in the form of a string of characters, after reading the data from the file, we will extract the different characters that appear inside the file into a string . This string is called the string key.
 
 String key:
 
