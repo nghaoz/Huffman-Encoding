@@ -82,7 +82,6 @@ def dehuffman(binFile, keyFile):
         with open(keyFile, 'r') as f:
             keys = json.load(f)
         # print(f'{keys}')
-        # print(f'{keys[1]}')
         bit_length = int(keys[-1])
         str_ = ''
         for item in range(0, len(binaryFromFile)-(1+bit_length), bit_length):
