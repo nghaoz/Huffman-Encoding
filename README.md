@@ -6,10 +6,11 @@ Content of JSON file:
 
 ```json
 {
-    "ID": "sumID1234",
-    "name": "NAME",
-    "phone": 0047944112
+    "ID": "ID1234",
+    "NAME": "name",
+    "NUMBER": 21.200049152125832
 }
+
 ```
 
 The JSON file contains information in the form of a string of characters, after reading the data from the file, we will extract the different characters that appear inside the file into a string . This string is called the string key.
