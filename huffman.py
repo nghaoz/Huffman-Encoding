@@ -83,7 +83,7 @@ def dehuffman(binFile, keyFile):
 
         bit_length = int(keys[-1])
         str_ = ''
-        for item in range(0, len(binaryFromFile)-(1+bit_length), bit_length):
+        for item in range(0, len(binaryFromFile)-(bit_length), bit_length):
             str_ += keys[int(binaryFromFile[item:item+bit_length],2)]
         str_ = str_.replace("'", '"')
 
