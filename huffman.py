@@ -89,6 +89,8 @@ def dehuffman(binFile, keyFile):
 
         str_ = json.loads(str_)
 
+        print(f'original string: {str_}')
+
         file = 'original_js.json'
         with open(file, 'w') as f:
             json.dump(str_, f)
@@ -97,12 +99,8 @@ def dehuffman(binFile, keyFile):
 # end dehuffman
 
 def main():
-    huffman('js.json')
+    huffman('sample_js.json')
     dehuffman('huff.bin', 'keys.json')
 
 if __name__ == '__main__':
     main()
-
-
-
-
