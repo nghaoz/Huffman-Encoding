@@ -1,4 +1,4 @@
-# Huffman-Encoding-Json
+# Huffman Encoding for Json files
 
 > This method is built to compress the content of JSON files. Base on the Huffman encoding method but has a few differences. 
 
