@@ -87,7 +87,7 @@ def dehuffman(binFile, keyFile):
             str_ += keys[int(binaryFromFile[item:item+bit_length],2)]
         str_ = str_.replace("'", '"')
 
-        str_ = json.loads(str_)
+        str_ = json.loads(str_) # align multiple lines in json format, comment if unnecessary 
 
         print(f'original string: {str_}')
 
