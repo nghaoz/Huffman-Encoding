@@ -38,7 +38,7 @@ def main():
     dehuffman('huff.bin', 'keys.json')
 ```
 - Replace ```sample_js.json``` with your path of JSON to encode.
-- This code contained Encoding function. Comment ```dehuffman('huff.bin', 'keys.json')``` if u don't want to use.
+- This code contained Encoding function, comment ```dehuffman('huff.bin', 'keys.json')``` if unnecessary.
 
 ## Result:
     
